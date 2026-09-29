@@ -1,0 +1,8 @@
+I broke down the problem into reversing a standard LL calcualting how many K sized chunks fit into the total size
+with an arrat which is a fixed block of memory stored in the heap. To reverse a chunk of size 'k', by just using two index variables
+a left and a right pointer marking the start and end of a chunk and physically swap the values moving inward until the pointers meet.
+
+The linked list approach was honestly a lot trickier to conceptualize because we aren't moving
+the data at all we are completely rewiring the architecture of the list.
+Instead of swapping values, we have to manipulate the next
+references while changing and keep track of the temporary pointers (prev, curr, nextNode) just to keep the list intact.

@@ -1,4 +1,4 @@
-public class Fibonacci {
+public class Fibonaci {
 
     public static int getFibonacciRecursive(int n) {
         // Handle negative numbers
